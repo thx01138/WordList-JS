@@ -67,6 +67,7 @@ var Word_List = (function() {
     publicInt.isInList = listCheck;
     publicInt.getRandomWord = getRand;
     publicInt.loadBank = loadWordDat;
+    publicInt.wordBank = wordBank;
     
     return publicInt;
 
